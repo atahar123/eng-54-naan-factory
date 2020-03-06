@@ -17,7 +17,7 @@ def make_dough(arg1, arg2):
     # Else, return not dough
 
 #2 As a user, I can use the bake_dough with dough to get naan.
-def naan(arg3, arg4):
+def naan1(arg3, arg4):
     if arg3 == 'bake_dough' and arg4 == 'dough':
         return 'naan'
     else:

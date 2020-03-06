@@ -15,21 +15,21 @@ print('Got: ', make_dough('water', 'cement'))
 
 
 #2 As a user, I can use the bake_dough with dough to get naan.
-print('calling naan with bake_dough and dough. Expect naan as a result')
-print(naan('bake_dough', 'dough') == 'naan')
-print('Got: ', naan('bake_dough', 'dough'))
+print('calling naan1 with bake_dough and dough. Expect naan as a result')
+print(naan1('bake_dough', 'dough') == 'naan')
+print('Got: ', naan1('bake_dough', 'dough'))
 
-print('Expect not naan as a result')
-print(naan('dough', 'something') == 'not naan')
-print('Got: ', naan('dough', 'something'))
+print('Expect not naan1 as a result')
+print(naan1('dough', 'something') == 'not naan')
+print('Got: ', naan1('dough', 'something'))
 
 
 #3 As a user, I can use the run_factory with water and flour and get naan.
-print('calling naan with water and flour. Expect naan as a result')
+print('calling naan2 with water and flour. Expect naan as a result')
 print(naan2('water', 'flour') == 'naan')
 print('Got: ', naan2('water', 'flour'))
 
-print('Expect not naan as a result')
+print('Expect not naan2 as a result')
 print(naan2('water', 'something_new') == 'not naan')
 print('Got: ', naan2('water', 'something_new'))
 
